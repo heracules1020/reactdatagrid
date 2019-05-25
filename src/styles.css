@@ -1,0 +1,100 @@
+.App{
+  font-family: "sans-serif";
+  text-align: center;
+}
+.react-grid-Toolbar .btn{
+  background-color: #65b8ff;
+  border:solid 1px #65b8ff;
+  color:#FFF;
+}
+.react-grid-Toolbar .btn:hover{
+  background-color:#30a0ff;
+  cursor: pointer;
+  border:solid 1px #30a0ff;
+  color:#FFF;
+  font-weight: bold;
+}
+.btn{
+  margin-left:30px;
+}
+.react-grid-HeaderCell{
+  text-align : center;
+}
+.react-grid-Row:hover{
+  cursor: pointer;
+  color: #65b8ff!important;
+}
+.ReactModal__Content{
+  right:60%!important;
+  left:50%!important;
+  border-radius: 15px!important;
+  background-color: rgb(253, 253, 253);
+}
+.ReactModal__Overlay.ReactModal__Overlay--after-open{
+  z-index: 300!important;
+}
+h1{
+  margin-top:0px!important;
+}
+.divcommentheader{
+  font-size:18px;
+}
+select{
+  font-size: 18px;
+}
+.closeicon,.divheader,.divcommentheader,.divcommentbody{
+  margin-bottom:30px!important;
+}
+textarea{
+  width:100%;
+  border:solid 1px gray;
+  height: 150px;
+  border-radius: 5px;
+}
+.divbutton{
+  text-align: center;
+}
+.btn-primary{
+  margin-left:0px!important;
+}
+label{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size:16px;
+}
+select{
+  border-radius: 5px;
+}
+@media (max-width:1400px){
+  .divheader{
+    display: grid;
+  }
+  label{
+    margin-bottom:10px;
+    margin-top:10px;
+  }
+}
+ @media (max-width:600px){
+  .ReactModal__Content{
+    padding:5px!important;
+  }
+} 
+.react-grid-image{
+  border-radius: 50%;
+}
+.react-grid-image:hover,.moreinfopic:hover,.linkedinpic:hover{
+  opacity: 0.6!important;
+  transform: scale(1.2);
+  transition: all 400ms ease-in-out 0s;
+  display: block;
+  overflow: hidden;
+}
+.moreinfopic,.linkedinpic{
+  width:25px;
+  height: 25px;
+  border-radius: 50%;
+  margin: 5px;
+}
+.With-SDR,.To-RightBound{
+  display: none;
+}
